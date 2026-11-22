@@ -57,7 +57,7 @@ export const datosPortafolio = {
       titulo: "BarberWeb — Gestión de Citas para Barberías",
       descripcion:
         "Plataforma web multi-tenant para barberías con catálogo, agenda de citas en 3 pasos, portal del cliente y paneles de administración con React, Tailwind CSS y Supabase.",
-      imagen: "src/assets/barberweb.png",
+      imagen: "/barberweb.png",
       demo: "https://kromatik.gools.com.mx/",
       repositorio: "https://github.com/CristianOG1/reservas-barberia",
       tecnologias: ["React", "Tailwind CSS", "Supabase"],
@@ -66,7 +66,7 @@ export const datosPortafolio = {
       titulo: "Mi Bolsillo — App de Gestión de Gastos (PWA)",
       descripcion:
         "Aplicación web progresiva hecha con React Native para el control de finanzas personales y registro de gastos.",
-      imagen: "src/assets/mi-bolsillo.png",
+      imagen: "/mi-bolsillo.png",
       demo: "https://mi-bolsillo-brown.vercel.app/",
       repositorio: "https://github.com/lesliedenise401/app-gastos.git",
       tecnologias: ["React Native", "PWA"],
@@ -75,7 +75,7 @@ export const datosPortafolio = {
       titulo: "Delivery App — Aplicación Móvil (APK)",
       descripcion:
         "Aplicación móvil desarrollada en Flutter y Dart enfocada en la gestión y seguimiento de entregas a domicilio.",
-      imagen: "src/assets/delivery.png",
+      imagen: "/delivery.png",
       demo: "#",
       repositorio: "https://github.com/CristianOG1/delivery-app",
       tecnologias: ["Flutter", "Dart"],
@@ -84,7 +84,7 @@ export const datosPortafolio = {
       titulo: "Tienda Web — E-Commerce",
       descripcion:
         "Tienda en línea full-stack con panel de administración para gestión de productos y categorías, desarrollada con Next.js, React, TypeScript, Strapi v5 y SQLite.",
-      imagen: "src/assets/tienda.png",
+      imagen: "/tienda.png",
       demo: "https://gestion-proyecto-tienda.vercel.app/",
       repositorio: "https://github.com/CristianOG1/gestion-proyecto-tienda",
       tecnologias: ["Next.js", "React", "TypeScript", "Strapi v5", "SQLite"],

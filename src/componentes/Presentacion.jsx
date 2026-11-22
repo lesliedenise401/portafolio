@@ -119,7 +119,7 @@ const Presentacion = () => {
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 overflow-hidden rounded-[40%_60%_55%_45%_/_50%_45%_55%_50%] bg-[#ffeaf1] flex items-center justify-center">
               {imagenOk ? (
                 <img
-                  src="src/assets/foto-2.jpeg"
+                  src="/foto-2.jpeg"
                   alt="Fotografía de perfil"
                   className="w-full h-full object-cover"
                   onError={() => setImagenOk(false)}

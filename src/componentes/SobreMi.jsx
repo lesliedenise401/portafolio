@@ -28,7 +28,7 @@ const SobreMi = () => {
               <div className="relative w-64 h-72 sm:w-72 sm:h-80 overflow-hidden rounded-[30%_70%_70%_30%_/_30%_30%_70%_70%] bg-white flex items-center justify-center shadow-md">
                 {imagenOk ? (
                   <img
-                    src="src/assets/foto-3.jpeg"
+                    src="/foto-3.jpeg"
                     alt="Sobre mí"
                     className="w-full h-full object-cover"
                     onError={() => setImagenOk(false)}
