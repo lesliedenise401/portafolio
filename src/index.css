@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  --color-acento-principal: #ffadc6;
+  --color-acento-secundario: #ffc1d4;
+  --color-rosa-pastel: #ffd6e3;
+  --color-fondo-alterno: #ffeaf1;
+  --color-fondo-principal: #ffffff;
+  --color-texto-principal: #2d2428;
+  --color-texto-secundario: #6b5a61;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  color: #2d2428;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Utilidades para cuadrícula decorativa de puntos */
+.puntos-decorativos {
+  background-image: radial-gradient(#ffc1d4 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+.puntos-decorativos-rosa {
+  background-image: radial-gradient(#ffd6e3 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
